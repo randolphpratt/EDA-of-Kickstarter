@@ -19,13 +19,13 @@ I will be looking into potential actionable insights that can assist users in de
 
 
 ## Data Cleaning:
-- The data was collected from Kaggle and already in a pandas readable format.
-- Dropped redundant columns as measured by correlation
-- Convert non-numerical data to numerical (dummy variable)
-- Convert date/time entries into pandas' date/time feature
-- Create the feature "elapsed" by determining time used from start to completion
+- The data was collected from Kaggle.
+- Dropped redundant columns as measured by correlation.
+- Convert non-numerical data to numerical (dummy variable).
+- Convert date/time entries into pandas' date/time feature.
+- Create the feature "elapsed" by determining time used from start to completion.
 
-Percentage of un/successful campaigns compared to each main category
+Percentage of un/successful campaigns compared to each main category.
 *insert countplot of successful to main category*
 - Bar lengths represent the quantity of projects within that category. 
 - "Music" is the largest and safest ratio of successful to unsuccessful campaigns.
@@ -51,5 +51,13 @@ Number of backers/pledgers distributed between main categories.This shows how 
 ### What does this all mean?
 - We can predict the success of a campaign utilizing a linear regression model.
 - The model can predict the funds that will be collected for a successful campaign.
+- At this point we can isolate individual countries and determine advertising campaigns that target each differently.
 
 Utilizing a linear regression model: 85% accuracy
+
+
+
+## Conclusion:
+
+From the initial analysis we can see that successful campaigns will vary by country and the number of backers increasing the revenue also plays a roll depending on the main/sub categories. Utilizing this initial analysis, we can make recommendations for future studies based on A/B testing marketing strategies until we can be confident of a large scale marketing campaign to recommend.
+
